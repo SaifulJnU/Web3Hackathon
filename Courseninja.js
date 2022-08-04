@@ -1,7 +1,7 @@
 
 import web3 from './web3';
 
-const address = '0x74d3b90a07b20220804b99325f83186aFf10A220';
+const address = '0x98A9a002569E21d9E654C52D02250B0A57B3e9cb';
 const abi = [
    {
       "inputs":[],
@@ -10,25 +10,21 @@ const abi = [
       "signature":"constructor"
    },
    {
-      "inputs":[
+      "inputs":[],
+      "name":"completionStatus",
+      "outputs":[
          {
             "internalType":"bool",
-            "name":"_status",
+            "name":"",
             "type":"bool"
          }
       ],
-      "name":"completionStatus",
-      "outputs":[
-         
-      ],
       "stateMutability":"nonpayable",
       "type":"function",
-      "signature":"0x67a5a909"
+      "signature":"0xeddd5458"
    },
    {
-      "inputs":[
-         
-      ],
+      "inputs":[],
       "name":"courseName",
       "outputs":[
          {
@@ -43,34 +39,24 @@ const abi = [
       "signature":"0x9553de4e"
    },
    {
-      "inputs":[
-         
-      ],
+      "inputs":[],
       "name":"enrollCourse",
-      "outputs":[
-         
-      ],
+      "outputs":[],
       "stateMutability":"payable",
       "type":"function",
       "payable":true,
       "signature":"0x26c943be"
    },
    {
-      "inputs":[
-         
-      ],
+      "inputs":[],
       "name":"getRefund",
-      "outputs":[
-         
-      ],
+      "outputs":[],
       "stateMutability":"nonpayable",
       "type":"function",
       "signature":"0xb2d5ae44"
    },
    {
-      "inputs":[
-         
-      ],
+      "inputs":[],
       "name":"getStudents",
       "outputs":[
          {
@@ -85,9 +71,7 @@ const abi = [
       "signature":"0xf1d064b3"
    },
    {
-      "inputs":[
-         
-      ],
+      "inputs":[],
       "name":"index",
       "outputs":[
          {
